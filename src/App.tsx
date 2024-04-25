@@ -1,13 +1,14 @@
+import AddTodos from "./components/AddTodos"
+import Todolists from "./components/Todolists"
 
 
 function App() {
 
   return (
-    <>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <main className="w-full md:max-w-[500px] p-4 flex flex-col text-center items-center md:px-10 lg:p-24 h-full lg:h-[500px] bg-slate-400 rounded drop-shadow-lg text-zinc-700">
+     <AddTodos />
+     <Todolists />
+    </main>
   )
 }
 
